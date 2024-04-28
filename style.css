@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafbfc;
+    
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    
+    
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+    object-fit: fill;
+}
+
+/* Styles for manual slide navigation */
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: 8px; /* Adjust margin to create space between slider and navigation */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.manual-btn {
+    border: 2px solid #827d7d;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #827d7d;
+}
+
+/* Show the first slide initially */
+.first {
+    display: block;
+}
+
+/* Add border and padding to the slider container */
+.slider-container {
+    border: 2px solid #dfe2e8; /* Choose your desired border color and width */
+    padding: 25px; /* Adjust padding as needed */
+    background-color: #dfe2e8; 
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    
+    
+}
+
+
+
+.table-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 880px;
+    height: 500px;
+    top: 900px;   
+
+    
+}
+
+.table first .table second .table third {
+    height: 275px;
+    width: 210px;
+    background-color: #dfe2e8; 
+}
+
+
+ 
+.table img{
+    width: 270px;
+    height: 200px;
+    border-radius: 4%;
+    object-fit:fill;
+    
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    
+}
+
+.text {
+    position: absolute;
+    top: 1800px;
+    width:1500px;
+
+}
