@@ -29,7 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
             const translateValue = -index * slideWidth + 'px';
             document.querySelector('.slides').style.transform = 'translateX(' + translateValue + ')';
         });
-        // Add 'active' class to the clicked button
-        btn.classList.add('active');
     });
 });
